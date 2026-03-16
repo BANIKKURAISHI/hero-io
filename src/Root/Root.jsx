@@ -2,6 +2,9 @@ import { createBrowserRouter } from "react-router";
 import Main from "../Main/Main";
 import Error from "./Error";
 import Home from "../Main/Home";
+import Apps from "../Components/AppPages/Apps";
+import Instalations from "../Components/InstalationPages/Instalations";
+
 
 const router = createBrowserRouter([
   {
@@ -12,6 +15,14 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
+      },
+      {
+        path:"/apps",
+        Component:Apps
+      },
+      {
+        path:"/installation",
+        Component:Instalations
       },
      
     ],

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/QFjhqZ7r/hero-image.webp",
+    "title": "Chat Messenger",
+    "companyName": "Meta",
+    "description": "Chat Messenger is a modern communication app designed for fast messaging.\nIt allows users to send instant text messages worldwide.\nYou can share photos, videos, and voice messages easily.\nThe app supports smooth HD voice and video calling.\nGroup chats make it easy to connect with many people.\nCustom stickers and emojis make conversations more enjoyable.\nEnd-to-end security helps protect private conversations.\nNotifications ensure you never miss an important update.\nThe interface is simple, clean, and beginner friendly.\nRegular updates improve speed, security, and user experience.\nMillions of users trust this app every single day.\nStay connected with everyone anytime and anywhere.",
+    "size": 85,
+    "reviews": 12000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 5750 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/1YhgMgfQ/51gsaxm-BHFL.png",
+    "title": "Photo Editor Pro",
+    "companyName": "Adobe",
+    "description": "Photo Editor Pro is a powerful image editing app.\nIt provides professional tools for quick photo enhancement.\nUsers can crop, rotate, and adjust image brightness easily.\nThe app includes advanced filters and stylish visual effects.\nAI-based tools help improve photos in just one tap.\nBackground removal makes portrait editing much more simple.\nYou can retouch faces and sharpen low quality images.\nIt supports high resolution export for better final results.\nThe interface is neat and easy for beginners to understand.\nCreative users can make content for social media quickly.\nFrequent updates bring new tools and performance improvements.\nTurn ordinary photos into stunning professional looking images.",
+    "size": 120,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 4550 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/bMBNCNjh/spotify-czr9.png",
+    "title": "Music Stream",
+    "companyName": "Spotify",
+    "description": "Music Stream gives access to millions of songs online.\nUsers can explore music from many genres and artists.\nPersonalized playlists are created based on listening habits.\nOffline downloads let you enjoy songs without internet.\nThe app offers clear, rich, and immersive audio quality.\nYou can discover podcasts and exclusive audio programs too.\nPlaylist sharing makes music discovery more social and fun.\nSearch features help you find albums, singers, and tracks.\nThe app interface feels smooth, modern, and easy to use.\nDaily recommendations keep your listening experience fresh.\nNew releases and trending songs appear very quickly here.\nEnjoy music, podcasts, and playlists wherever you go.",
+    "size": 95,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8150 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/4nBjsTdZ/5d271c637fb6d.png",
+    "title": "Weather Live",
+    "companyName": "WeatherAPI",
+    "description": "Weather Live provides fast and accurate weather forecasts.\nIt shows current temperature, humidity, and wind details.\nHourly forecasting helps users plan their full day better.\nWeekly updates make travel and outdoor planning easier.\nThe app gives alerts for storms and severe weather risks.\nLocation-based results ensure more personalized information.\nLive radar maps help track changing weather conditions.\nIts design is clean and easy for all users.\nMultiple cities can be saved for quick future checking.\nForecast accuracy improves through regular background updates.\nUseful visual icons make the report easier to understand.\nStay safe and prepared before stepping outside every day.",
+    "size": 40,
+    "reviews": 4200,
+    "ratingAvg": 4.3,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1480 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/Kz7T3LQb/unnamed.png",
+    "title": "Fitness Tracker",
+    "companyName": "Nike",
+    "description": "Fitness Tracker helps users monitor their health daily.\nIt tracks steps, calories burned, and active time accurately.\nWorkout records help measure progress over long periods.\nYou can set goals for walking, running, and exercise.\nThe app provides easy to read health insights and graphs.\nDaily reminders help keep your routine active and healthy.\nIt supports different workout modes for better flexibility.\nProgress reports increase motivation and personal discipline.\nThe dashboard is neat and simple for quick use.\nMany users rely on it for regular fitness management.\nSync support makes it useful with fitness accessories too.\nBuild a healthier lifestyle with smart daily tracking.",
+    "size": 70,
+    "reviews": 6800,
+    "ratingAvg": 4.4,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/b5D99WcZ/unnamed.png",
+    "title": "Note Keeper",
+    "companyName": "Google",
+    "description": "Note Keeper is a smart app for writing notes.\nIt helps users save ideas, tasks, and reminders quickly.\nColor labels make note organization more simple and clear.\nChecklists are useful for shopping and daily planning.\nVoice notes can be added when typing feels inconvenient.\nThe app syncs across devices for easy access anywhere.\nSearch features help find old notes in seconds.\nSharing options support teamwork and collaborative planning.\nThe interface is minimal and distraction free.\nAutomatic saving reduces the risk of losing information.\nStudents and professionals can use it very effectively.\nKeep your important thoughts safe and organized every day.",
+    "size": 25,
+    "reviews": 5300,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2350 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/60d04NBZ/unnamed.png",
+    "title": "Food Delivery",
+    "companyName": "Uber Eats",
+    "description": "Food Delivery makes online meal ordering very convenient.\nUsers can browse menus from many nearby restaurants.\nIt supports breakfast, lunch, dinner, and fast food.\nLive order tracking shows delivery progress in real time.\nSecure payment options improve checkout convenience and trust.\nSpecial offers help users save money on regular orders.\nRestaurant ratings make choosing food much easier.\nThe interface is colorful, smooth, and easy to explore.\nFast delivery service improves the complete user experience.\nYou can reorder favorite meals in only a few taps.\nThe app is suitable for busy people and families.\nEnjoy fresh food delivered directly to your location.",
+    "size": 110,
+    "reviews": 7200,
+    "ratingAvg": 4.2,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2650 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/SX6JGFNm/image.png",
+    "title": "Video Player HD",
+    "companyName": "VLC",
+    "description": "Video Player HD supports almost every popular media format.\nIt plays movies, music videos, and clips without lag.\nUsers can enjoy smooth playback in HD and 4K quality.\nSubtitle support improves the viewing experience for everyone.\nPlayback speed control is useful for learning and entertainment.\nGesture controls make brightness and volume adjustment easier.\nThe app works with both local and shared media files.\nIts interface is clean, lightweight, and user friendly.\nBattery optimization helps reduce unnecessary power usage.\nAudio enhancement settings improve sound clarity significantly.\nFrequent updates improve performance and media compatibility.\nWatch your favorite content smoothly anytime on your device.",
+    "size": 60,
+    "reviews": 6400,
+    "ratingAvg": 4.6,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2920 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/qLTThCXF/logo-udemy-purple-animation.gif",
+    "title": "Online Learning",
+    "companyName": "Udemy",
+    "description": "Online Learning offers thousands of educational video courses.\nUsers can improve skills from home at any time.\nIt covers technology, business, design, and personal growth.\nExpert instructors explain lessons in a simple practical way.\nOffline downloads help continue learning without internet access.\nProgress tracking helps students stay consistent and motivated.\nQuizzes and exercises improve understanding of each lesson.\nCourse variety makes it suitable for many learning goals.\nCertificates add extra value after successful completion.\nThe platform interface is smooth and beginner friendly.\nRegular updates keep content fresh and more relevant.\nLearn valuable skills and grow your career confidently.",
+    "size": 130,
+    "reviews": 8800,
+    "ratingAvg": 4.7,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/zH0V0tW2/unnamed.png",
+    "title": "Map Navigator",
+    "companyName": "Google",
+    "description": "Map Navigator helps users find routes very quickly.\nIt provides accurate GPS guidance for daily travel.\nLive traffic updates help avoid delays and crowded roads.\nVoice directions make driving safer and more convenient.\nNearby places like restaurants and hospitals are easy to find.\nOffline maps support traveling without constant internet access.\nPublic transport and walking routes increase flexibility.\nStreet view images help users understand unfamiliar places.\nSearch features work well for cities and local addresses.\nThe app updates routes regularly for better navigation.\nIts interface is simple, clean, and efficient.\nTravel with more confidence using real time smart directions.",
+    "size": 150,
+    "reviews": 20000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 10800 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/j9LxCGtS/Amazon-app.jpg",
+    "title": "Shopping Mart",
+    "companyName": "Amazon",
+    "description": "Shopping Mart is a complete online shopping solution.\nUsers can buy fashion, electronics, books, and more.\nThe app offers fast search and smooth product browsing.\nCustomer reviews help people make better buying decisions.\nWishlists allow users to save products for later.\nSecure payment methods improve trust and convenience.\nOrder tracking keeps customers updated after purchase.\nDiscounts and seasonal sales attract regular shoppers.\nThe interface is professional and easy to navigate.\nReturns and support features improve buyer satisfaction.\nMillions of products are available in one place.\nShop quickly and comfortably from your mobile device.",
+    "size": 140,
+    "reviews": 17000,
+    "ratingAvg": 4.4,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 8200 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/h1L9050H/Easy-Task-Management-tips-for-Microsoft-Teams-Users.webp",
+    "title": "Task Manager",
+    "companyName": "Microsoft",
+    "description": "Task Manager helps organize work and daily activities.\nUsers can create tasks with dates and priority levels.\nProject lists keep multiple responsibilities well arranged.\nReminders make sure important deadlines are not missed.\nProgress tracking improves productivity and time management.\nThe app is useful for personal and team planning.\nA clean interface makes task navigation very simple.\nCompleted tasks can be reviewed for performance improvement.\nSynchronization across devices keeps your schedule updated.\nColor tags and categories improve organization speed.\nIt works well for students, workers, and freelancers.\nPlan smarter and finish tasks more efficiently every day.",
+    "size": 55,
+    "reviews": 4500,
+    "ratingAvg": 4.3,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 1550 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/gbLmVH2b/unnamed.png",
+    "title": "Video Call Meet",
+    "companyName": "Google",
+    "description": "Video Call Meet is built for online communication.\nIt supports smooth one to one and group meetings.\nUsers can join calls with stable high quality video.\nClear audio improves every discussion and online class.\nScreen sharing is useful for work and presentations.\nThe app works well for teams, friends, and families.\nJoining a meeting takes only a few easy steps.\nIts interface is minimal and simple to understand.\nCross device support improves flexibility during communication.\nFrequent updates enhance privacy and call performance.\nScheduling options make meeting organization more convenient.\nConnect face to face from anywhere in the world.",
+    "size": 100,
+    "reviews": 9200,
+    "ratingAvg": 4.5,
+    "downloads": 4300000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4350 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/JWhr9m93/duolingo-duo-owl-logo-2022.webp",
+    "title": "Language Learner",
+    "companyName": "Duolingo",
+    "description": "Language Learner makes studying new languages more fun.\nInteractive lessons help improve speaking and vocabulary skills.\nShort daily exercises fit easily into busy routines.\nThe app supports multiple languages for different goals.\nGamified learning keeps users motivated and consistent.\nProgress tracking shows improvement over time clearly.\nPronunciation practice improves speaking confidence gradually.\nSimple design makes lessons easy to follow.\nDaily streak features encourage regular learning habits.\nThe app is useful for beginners and casual learners.\nFrequent updates improve lessons and user engagement.\nLearn a new language through fun and effective practice.",
+    "size": 90,
+    "reviews": 11000,
+    "ratingAvg": 4.8,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6570 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/fz6bVXLy/p0gdcnjt.jpg",
+    "title": "News Today",
+    "companyName": "BBC",
+    "description": "News Today keeps users updated with global headlines.\nIt covers politics, sports, technology, and entertainment news.\nBreaking stories are published quickly and clearly.\nUsers can explore local and international reporting easily.\nCategories help find topics based on personal interest.\nLive updates make the app useful throughout the day.\nReading mode keeps articles comfortable and distraction free.\nVideo reports add more context to important events.\nThe interface is organized and simple to browse.\nNotifications alert users to major developing stories.\nFrequent updates ensure more current and useful information.\nStay informed with trusted news in one place.",
+    "size": 45,
+    "reviews": 3900,
+    "ratingAvg": 4.2,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/hxXm2rSN/mqdefault.jpg",
+    "title": "Battle Royale Arena",
+    "companyName": "Tencent Games",
+    "description": "Battle Royale Arena is an action packed survival game.\nPlayers compete against many opponents in a large battlefield.\nWeapons, vehicles, and strategy decide who survives longest.\nThe game offers intense combat and realistic environments.\nMultiplayer mode makes every match more exciting and competitive.\nCharacter movement and controls feel smooth and responsive.\nRegular events keep the gameplay fresh and rewarding.\nTeam mode allows players to fight alongside friends.\nGraphics quality creates a thrilling visual experience.\nRanking systems motivate players to improve their skills.\nFrequent updates add maps, gear, and balance improvements.\nSurvive the battlefield and become the final champion.",
+    "size": 850,
+    "reviews": 18500,
+    "ratingAvg": 4.7,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 10250 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/Rk7fGwDN/unnamed.png",
+    "title": "Travel Guide",
+    "companyName": "TripAdvisor",
+    "description": "Travel Guide helps users discover exciting destinations.\nIt includes recommendations for hotels, food, and attractions.\nUser reviews make travel planning easier and more reliable.\nPhotos help explore places before making a decision.\nTrip ideas support both short and long vacations.\nLocation-based search helps find nearby travel spots quickly.\nThe app is useful for solo trips and family tours.\nSaved places help organize future travel plans.\nMaps and directions improve local movement convenience.\nThe design is simple and very easy to browse.\nRegular content updates keep listings fresh and useful.\nPlan better journeys and explore the world confidently.",
+    "size": 88,
+    "reviews": 5300,
+    "ratingAvg": 4.5,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2060 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/846zd3W1/images.jpg",
+    "title": "Game Hub",
+    "companyName": "Tencent",
+    "description": "Game Hub is a fun platform for mobile gamers.\nIt gives access to popular games in one place.\nUsers can discover action, puzzle, and casual titles.\nThe app highlights trending and newly released games.\nGame recommendations are based on user interests.\nFast downloads make starting new games very easy.\nIts clean layout helps browse categories quickly.\nRatings and reviews support better game selection.\nRegular promotions make the platform more exciting.\nPerformance updates improve speed and overall stability.\nIt is a useful app for both new and experienced players.\nFind, download, and enjoy games without any hassle.",
+    "size": 250,
+    "reviews": 14000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 6800 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/3mdwvcsy/unnamed.png",
+    "title": "PDF Reader",
+    "companyName": "Foxit",
+    "description": "PDF Reader helps open and manage PDF documents.\nUsers can read files smoothly with fast page loading.\nZoom and navigation tools improve reading comfort.\nThe app supports bookmarks for important document sections.\nSearch options make long files easier to explore.\nNight mode reduces eye strain during long reading sessions.\nAnnotation features help mark useful text quickly.\nIt is useful for study, office work, and contracts.\nSharing and file organization tools add more convenience.\nThe interface is simple and lightweight to use.\nRegular updates improve compatibility and reading performance.\nRead documents efficiently from your phone or tablet.",
+    "size": 75,
+    "reviews": 6100,
+    "ratingAvg": 4.4,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2350 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/t7crnfC/unnamed.png",
+    "title": "Cloud Storage",
+    "companyName": "Dropbox",
+    "description": "Cloud Storage keeps your files safe online.Users can upload photos, videos, and documents easily.It supports file access from multiple devices anytime.Automatic backup helps prevent accidental data loss.Sharing links make collaboration simple and fast.Folders help organize important files more clearly.The app uses secure systems to protect user content.Syncing works smoothly across mobile and desktop platforms.The interface is clean and easy for beginners.Storage management tools help save space efficiently.Regular updates improve speed, reliability, and security.Store, protect, and access your files from anywhere.",
+    "size": 65,
+    "reviews": 7300,
+    "ratingAvg": 4.5,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  }
+]
