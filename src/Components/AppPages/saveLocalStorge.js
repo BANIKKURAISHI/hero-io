@@ -24,10 +24,16 @@ const saveAppsButton=(id)=>{
     const saveApps=localStorage.setItem("installApp",getAppsConvert)
     console.log(saveApps)
  }
-   
 
 }
 
 
+const removeFromStoreg=(id)=>{
+    console.log(id)
+const getApps=getAppsButton()
+const update =getApps.filter(getApp=>getApp !== id)
+localStorage.setItem("installApp",JSON.stringify(update) )
+}
 
-export {getAppsButton, saveAppsButton}
+
+export {getAppsButton, saveAppsButton ,removeFromStoreg as remove }

@@ -1,10 +1,14 @@
-import React from "react";
-import { Link, useLoaderData, useParams } from "react-router";
+import React, { useState } from "react";
+ import { toast, ToastContainer } from 'react-toastify'
+
+import {  useLoaderData, useParams } from "react-router";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { TbFileLike } from "react-icons/tb";
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from "recharts";
+import {saveAppsButton} from "../AppPages/saveLocalStorge"
 const TrendingDetails = () => {
+    const [toggle,setToggle]=useState(false)
   const { id } = useParams();
   const idNumber = parseInt(id);
   const datas = useLoaderData();
@@ -24,6 +28,13 @@ const TrendingDetails = () => {
   } = findApps || {};
   const million = downloads / 1000000;
   const totalReview = reviews / 1000;
+
+  const installButton=(id)=>{
+     saveAppsButton(id)
+   setToggle(true)
+   toast("Wow!Your app is installed now  ")
+  }
+  
   return (
     <div>
       <div className="flex flex-row gap-10 m-10 ">
@@ -69,8 +80,8 @@ const TrendingDetails = () => {
               </h1>
             </div>
           </div>
+ <button  disabled={toggle} onClick={()=>{setToggle(!toggle);installButton(idNumber)}} className="btn mx-3 text-xl bg-emerald-500 "> <span>{toggle?"Installed ":"Install Now" }</span>  ({size} <span>MB</span>) </button>
 
-          <Link><button className="btn mx-3 text-xl bg-emerald-500 ">Install Now ({size} <span>MB</span>) </button> </Link>
         </div>
         
       </div>
@@ -92,6 +103,7 @@ const TrendingDetails = () => {
       <p className="font-normal text-xl mx-10 mb-10  text-justify">
         {description}
       </p>
+       <ToastContainer />
     </div>
   );
 };

@@ -2,14 +2,12 @@ import { FaStar } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 
 
-
-
-
-
-const InstallApps = ({install}) => {
+const InstallApps = ({install,removeButton}) => {
     console.log(install)
-   const { image, downloads, ratingAvg, title, size } = install || {};
+   const {id, image, downloads, ratingAvg, title, size } = install || {};
    const million =downloads/1000000
+
+ 
     
   return (
    <div className="flex flex-row justify-between bg-gray-300 border-2">
@@ -43,7 +41,7 @@ const InstallApps = ({install}) => {
         
       </div>
      
-   <button className="btn m-16 text-md text-white bg-green-500">Unstall</button>
+   <button onClick={()=>{removeButton(id)}} className="btn m-16 text-md text-white bg-green-500">Unstall</button>
    </div>
   );
 };

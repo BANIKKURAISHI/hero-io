@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useLoaderData } from 'react-router';
 import  { useEffect, useState } from "react";
-import { getAppsButton } from "../AppPages/saveLocalStorge";
+import { getAppsButton, remove } from "../AppPages/saveLocalStorge";
 import InstallApps from '../InstalationPages/InstallApps'
 const Instalations = () => {
   const [installs,setInstalls]=useState([])
@@ -28,7 +28,11 @@ const low=[...installs].sort((a,b)=>a.size-b.size)
 setInstalls(low)
  }
  }
-
+ const removeButton=(id)=>{
+   remove(id)
+   const update=installs.filter(app=>app.id!==id)
+   setInstalls(update)
+   }
 
     return (
         <div>
@@ -56,7 +60,7 @@ setInstalls(low)
  </div>
          <div className="flex flex-col gap-4 mt-5 mb-5">
           {
-            installs?.map(install=><InstallApps install={install}></InstallApps>)
+            installs?.map(install=><InstallApps removeButton={removeButton} install={install}></InstallApps>)
           }
          </div>
         </div>
