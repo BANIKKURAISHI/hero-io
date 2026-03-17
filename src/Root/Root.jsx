@@ -7,38 +7,47 @@ import Instalations from "../Components/InstalationPages/Instalations";
 import TrendingDetails from "../Components/TrendingApps/TrendingDetails";
 import AppsDetails from "../Components/AppPages/AppsDetails";
 
+import InstallApps from "../Components/InstalationPages/InstallApps";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    errorElement: <Error></Error>,
+
     Component: Main,
+    errorElement:<Error></Error>,
     children: [
       {
         index: true,
+        loader: () => fetch("appdatas.json"),
+
         Component: Home,
-        loader:()=>fetch('appdatas.json'),
       },
       {
-        path:"/apps",
-        Component:Apps,
+        path: "/apps",
+        loader: () => fetch("appdatas.json"),
+        Component: Apps,
+      },
+      {
+        path: "/apps/:id",
+        loader: () => fetch("appdatas.json"),
+        Component: AppsDetails,
+      },
+      {
+        path: "/installation",
+        Component: Instalations,
         loader:()=>fetch('appdatas.json')
       },
+      // {
+      //   path:"/installation/:id",
+      //    loader:()=>fetch('appdatas.json'),
+      //  Component:Instalations,
+
+      // },
       {
-        path:"/apps/:id",
-        Component:AppsDetails,
-        loader:()=>fetch('appdatas.json')
+        path: "/trendingDetails/:id",
+        loader: () => fetch("appdatas.json"),
+        Component: TrendingDetails,
       },
-      {
-        path:"/installation",
-        Component:Instalations
-      },
-      {
-        path:"/trendingDetails/:id",
-        loader:()=>fetch('appdatas.json'),
-        Component:TrendingDetails
-      },
-     
     ],
   },
 ]);

@@ -19,7 +19,7 @@ const Apps = () => {
             </div>
           <div className='grid grid-cols-4 gap-5 p-10'>
             {
-             totalApps.map(app=><App app={app}></App>)   
+             totalApps?.map(app=><App key={app.id} app={app}></App>)   
             }
           </div>
         </div>

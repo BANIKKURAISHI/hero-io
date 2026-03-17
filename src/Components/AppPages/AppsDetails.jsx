@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { TbFileLike } from "react-icons/tb";
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from "recharts";
+import { saveAppsButton } from "./saveLocalStorge";
+ import { toast, ToastContainer } from 'react-toastify'
 const AppsDetails = () => {
+  const [toggle,setToggle]=useState(false)
     const {id}=useParams()
     const idParse=parseInt(id)
-    const appsData=useLoaderData()
-    const appfind=appsData.find(apps=>apps.id===idParse)
+    const appData=useLoaderData()
+   
+    
+    const appfind=appData?.find(apps=>apps.id===idParse)
+    console.log(appfind)
     const {
+     
     image,
     companyName,
     description,
@@ -23,6 +30,16 @@ const AppsDetails = () => {
   } = appfind|| {};
   const million = downloads / 1000000;
   const totalReview = reviews / 1000;
+
+const installButton =(id)=>{
+  saveAppsButton(id)
+   setToggle(true)
+   toast("Wow!Your app is installed now  ")
+  
+}
+
+
+
     return (
         <div>
              <div className="flex flex-row gap-10 m-10 ">
@@ -69,7 +86,7 @@ const AppsDetails = () => {
                    </div>
                  </div>
        
-                 <Link><button className="btn mx-3 text-xl bg-emerald-500 ">Install Now ({size} <span>MB</span>) </button> </Link>
+       <button  disabled={toggle} onClick={()=>{setToggle(!toggle);installButton(idParse)}} className="btn mx-3 text-xl bg-emerald-500 "> <span>{toggle?"Installed ":"Install Now" }</span>  ({size} <span>MB</span>) </button>
                </div>
                
              </div>
@@ -91,6 +108,7 @@ const AppsDetails = () => {
              <p className="font-normal text-xl mx-10 mb-10  text-justify">
                {description}
              </p>
+             <ToastContainer />
            </div>
     );
 };
