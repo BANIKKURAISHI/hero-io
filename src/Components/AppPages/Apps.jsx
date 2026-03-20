@@ -65,10 +65,10 @@ const Apps = () => {
                 try another apps
               </p>
               <button
-                className="btn btn-primary mt-10 mb-10"
-                onClick={() => navigate(-1)}
+                className="btn bg-linear-to-bl from-[#6b35e5] to-[#975bf0]  mt-10 mb-10"
+                onClick={() => setSearch('')}
               >
-                Go Back{" "}
+                Show all apps{" "}
               </button>
             </div>
           </div>

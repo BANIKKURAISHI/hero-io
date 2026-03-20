@@ -8,10 +8,11 @@ import withReactContent from "sweetalert2-react-content";
 
 const MySwal = withReactContent(Swal);
 const Instalations = () => {
+  const data = useLoaderData();
   const [loading,setLoading]=useState(true)
   const [installs, setInstalls] = useState([]);
   const [sort, setSort] = useState("");
-  const data = useLoaderData();
+  
  
   useEffect(() => {
   if (!data) {

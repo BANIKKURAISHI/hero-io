@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { Link, useLoaderData, useParams } from "react-router";
+import React, { useEffect, useState } from "react";
+import { Link, useLoaderData,  useParams } from "react-router";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { TbFileLike } from "react-icons/tb";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { saveAppsButton } from "./saveLocalStorge";
-import { toast, ToastContainer } from "react-toastify";
+import { getAppsButton, saveAppsButton } from "./saveLocalStorge";
+
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 
@@ -17,6 +17,14 @@ const AppsDetails = () => {
   const { id } = useParams();
   const idParse = parseInt(id);
   const appData = useLoaderData();
+
+  useEffect(()=>{
+    const reloadApps=getAppsButton()
+    const isAlready=reloadApps.includes(idParse)
+    if(isAlready){
+      setToggle(true)
+    }
+  },[idParse])
 
   const appfind = appData?.find((apps) => apps.id === idParse);
   console.log(appfind);
@@ -34,17 +42,20 @@ const AppsDetails = () => {
   } = appfind || {};
   const million = downloads / 1000000;
   const totalReview = reviews / 1000;
-
+// const navigate = useNavigate()
   const installButton = (id) => {
     saveAppsButton(id);
     setToggle(true);
-    toast("Wow!Your app is installed now  ");
+
       MySwal.fire({
       title: "Done!!!",
       text: "App installed successfully.",
       icon: "success",
     })
+    // navigate("/installation")
   };
+
+
 
   return (
     <div>
@@ -132,7 +143,7 @@ const AppsDetails = () => {
       <p className="font-normal mb-10 text-xl md:mx-10   text-justify">
         {description}
       </p>
-      <ToastContainer />
+      
     </div>
   );
 };

@@ -14,17 +14,15 @@ const getAppsButton=()=>{
 
 
 const saveAppsButton=(id)=>{
-    const getApps=getAppsButton()
-    if(getApps.includes(id)){
-    alert("You install this app ")    
-    }
- else{
-    getApps.push(id)
+    const getApps=getAppsButton() || []
+    
+    if(!getApps.includes(id)){
+        getApps.push(id)
     const getAppsConvert=JSON.stringify(getApps)
-    const saveApps=localStorage.setItem("installApp",getAppsConvert)
-    console.log(saveApps)
- }
-
+    localStorage.setItem("installApp",getAppsConvert)
+    }
+    
+  
 }
 
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
  import { toast, ToastContainer } from 'react-toastify'
 
 import {  useLoaderData, useParams } from "react-router";
@@ -6,12 +6,22 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { TbFileLike } from "react-icons/tb";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import {saveAppsButton} from "../AppPages/saveLocalStorge"
+import {getAppsButton, saveAppsButton} from "../AppPages/saveLocalStorge"
 const TrendingDetails = () => {
     const [toggle,setToggle]=useState(false)
   const { id } = useParams();
   const idNumber = parseInt(id);
   const datas = useLoaderData();
+// !installed button show
+   useEffect(()=>{
+      const reloadApps=getAppsButton()
+      const isAlready=reloadApps.includes(idNumber)
+      if(isAlready){
+        setToggle(true)
+      }
+    },[idNumber])
+
+
   const findApps = datas?.find((data) => data.id === idNumber);
   console.log(findApps);
   const {

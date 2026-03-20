@@ -3,7 +3,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 
 const InstallApps = ({install,removeButton}) => {
-    console.log(install)
+   
    const {id, image, downloads, ratingAvg, title, size } = install || {};
    const million =downloads/1000000
 

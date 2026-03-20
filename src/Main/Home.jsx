@@ -19,8 +19,8 @@ const Home = () => {
         isPending
           ? "pending"
           : isActive
-            ? "font-semibold text-md btn text-[#6b35e5] underline mr-3"
-            : "font-semibold btn text-md mr-3"
+            ? "font-semibold text-md btn p-5 bg-[#6b35e5] text-white underline mr-3"
+            : "font-semibold p-5 btn bg-linear-to-bl from-[#6b35e5] to-[#975bf0]  text-white text-md mr-3"
       }
     >
       Show all 
