@@ -6,7 +6,7 @@ const ThreeState = () => {
               <img className='' src="https://i.ibb.co.com/wFtN6tJ3/hero.png" alt="" />
              <div className='w-full text-center bg-gradient-to-r from-[#6d37e5] via-[#7f46ea] to-[#9c66f0] '>
                 <h1 className='text-4xl mt-4 text-white p-5  font-semibold' >Trusted by Millions, Built for You</h1>
-                <div className='grid grid-cols-3'>
+                <div className='grid grid-cols-1 md:grid-cols-3'>
                     <div className='text-white p-10'>
                         <h1 className='forn-nomal text-xl p-2'>Total Downloads</h1>
                         <h1 className='font-bold p-2 text-5xl'>29.6M</h1>

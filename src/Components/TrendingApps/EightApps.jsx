@@ -1,9 +1,10 @@
-import React from "react";
+import React  from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router";
 
 const EightApps = ({ eight }) => {
+
   const { id, image, downloads, title, ratingAvg } = eight;
   const million =downloads/1000000
  

@@ -1,7 +1,9 @@
 import React from "react";
 import EightApps from "./EightApps";
+import { useNavigation } from "react-router";
 
 const Trendings = ({ eightApps }) => {
+ const natigation=useNavigation()
   
 
   return (
@@ -12,8 +14,8 @@ const Trendings = ({ eightApps }) => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-5 p-10">
-        {eightApps.slice(0, 8).map((eight) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 p-6">
+        {natigation.state ==="loading"?<h1>Loading.....</h1> : eightApps.slice(0, 8).map((eight) => (
           <EightApps
             key={eight.id}
             

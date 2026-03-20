@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const Banner = () => {
     return (
         <div>
-            <div className='text-center p-5'>
+            <div className='text-center md:p-5'>
                 <h1 className='font-bold text-6xl p-4'>We Build <br />
                 <span className='text-[#804fe8]'>Productive</span> Apps</h1>
                 <p>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
