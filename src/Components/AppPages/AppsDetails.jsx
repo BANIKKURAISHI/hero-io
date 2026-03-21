@@ -27,6 +27,30 @@ const AppsDetails = () => {
   },[idParse])
 
   const appfind = appData?.find((apps) => apps.id === idParse);
+  if(!appfind){
+   return (
+     <div className="w-80 md:w-[700px] lg:w-[900px] xl:w-[1300px]">
+            <div className="flex flex-col justify-center items-center bg-gray-300 ">
+              <img
+                className=" items-center "
+                src="https://i.ibb.co.com/v68kyFDH/App-Error.png"
+                alt=""
+              />
+              <h1 className="mx-2 text-4xl font-bold">OPPS!! APP NOT FOUND</h1>
+              <p className=" mx-2 text-xl font-normal">
+                The App you are requesting is not found on our system. please
+                try another apps
+              </p>
+              <button
+                className="btn bg-linear-to-bl from-[#6b35e5] to-[#975bf0]  mt-10 mb-10"
+                onClick={() => setSearch('')}
+              >
+                Show all apps{" "}
+              </button>
+            </div>
+          </div>
+   )
+  }
   console.log(appfind);
   const {
     image,

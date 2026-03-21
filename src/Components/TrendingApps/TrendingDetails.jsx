@@ -7,6 +7,11 @@ import { FaStar } from "react-icons/fa";
 import { TbFileLike } from "react-icons/tb";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import {getAppsButton, saveAppsButton} from "../AppPages/saveLocalStorge"
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+
+const MySwal = withReactContent(Swal);
 const TrendingDetails = () => {
     const [toggle,setToggle]=useState(false)
   const { id } = useParams();
@@ -42,7 +47,11 @@ const TrendingDetails = () => {
   const installButton=(id)=>{
      saveAppsButton(id)
    setToggle(true)
-   toast("Wow!Your app is installed now  ")
+    MySwal.fire({
+      title: "Done!!!",
+      text: "App installed successfully.",
+      icon: "success",
+    })
   }
   return (
     <div>
