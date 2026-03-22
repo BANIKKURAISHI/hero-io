@@ -32,11 +32,11 @@ const Instalations = () => {
     setSort(type);
 
     if (type === "High to Low") {
-      const high = [...installs].sort((a, b) => b.size - a.size);
+      const high = [...installs].sort((a, b) => b.downloads - a.downloads);
       setInstalls(high);
     }
     if (type === "Low to High") {
-      const low = [...installs].sort((a, b) => a.size - b.size);
+      const low = [...installs].sort((a, b) => a.downloads - b.downloads);
       setInstalls(low);
     }
   };
@@ -61,7 +61,7 @@ const Instalations = () => {
           </p>
         </div>
         <div className="flex flex-row justify-between mb-14">
-          <h1 className="text-2xl btn md:ml-20">Apps Found {installs.length} </h1>
+          <h1 className="text-2xl btn md:ml-20">Apps Found ({installs.length}) </h1>
           <details className="dropdown md:mr-24">
             <summary className="btn m-1 md:w-52">
               Sort By {sort ? sort : ""}

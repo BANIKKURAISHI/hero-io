@@ -29,11 +29,11 @@ const AppsDetails = () => {
   const appfind = appData?.find((apps) => apps.id === idParse);
   if(!appfind){
    return (
-     <div className="w-80 md:w-[700px] lg:w-[900px] xl:w-[1300px]">
-            <div className="flex flex-col justify-center items-center bg-gray-300 ">
+     <div className="w-full  md:w-full lg:w-[940px] xl:w-full">
+            <div className="flex flex-col   justify-center items-center bg-gray-300 ">
               <img
-                className=" items-center "
-                src="https://i.ibb.co.com/v68kyFDH/App-Error.png"
+                className="w-full items-center  mx-center"
+                src="https://i.ibb.co.com/twJhzSDH/images.png"
                 alt=""
               />
               <h1 className="mx-2 text-4xl font-bold">OPPS!! APP NOT FOUND</h1>
@@ -41,12 +41,12 @@ const AppsDetails = () => {
                 The App you are requesting is not found on our system. please
                 try another apps
               </p>
-              <button
+             <Link to="/apps"><button
                 className="btn bg-linear-to-bl from-[#6b35e5] to-[#975bf0]  mt-10 mb-10"
-                onClick={() => setSearch('')}
+               
               >
                 Show all apps{" "}
-              </button>
+              </button></Link> 
             </div>
           </div>
    )
@@ -136,8 +136,8 @@ const AppsDetails = () => {
             className="btn w-72  text-xl bg-emerald-500 "
           >
             {" "}
-            <span>{toggle ? "Installed " : "Install Now"}</span> ({size}{" "}
-            <span>MB</span>){" "}
+            <span>{toggle ? "Installed" : `Install Now (${size} MB)`}</span> 
+            {/* ({" "} <span>{size}</span>){" "} */}
           </button>
         </div>
       </div>

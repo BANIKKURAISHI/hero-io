@@ -45,14 +45,15 @@ const Apps = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 p-6">
-        {loading?(<div>
-             <span className="loading loading-spinner text-primary"></span>
-
+        {loading?(<div className="min-h-screen flex justify-center items-center">
+          <span className="loading loading-bars loading-lg">
+           
+          </span>
         </div>) : (filterSearch.length > 0 ? (
           filterSearch?.map((app) => <App key={app.id} app={app}></App>)
         ) : (
          
-          <div className="w-80 md:w-[700px] lg:w-[900px] xl:w-[1300px]">
+          <div className="w-full md:w-[700px] lg:w-[900px] xl:w-[1300px]">
             <div className="flex flex-col justify-center items-center bg-gray-300 ">
               <img
                 className=" items-center "
